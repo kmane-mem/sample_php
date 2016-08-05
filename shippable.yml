@@ -27,3 +27,13 @@ integrations:
       on_success: always
       on_failure: always
       on_pull_request: always  
+      
+    - integrationName: plv2-slack
+      type: slack
+      recipients: 
+        - "#shiphitchcock1"
+       # - varsha@shippable.com
+      on_start: always
+      on_success: always
+      on_failure: always
+      on_pull_request: always 
