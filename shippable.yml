@@ -31,7 +31,8 @@ integrations:
     - integrationName: plv2-slack
       type: slack
       recipients: 
-        - "#shiphitchcock1"
+        - "@shiphitchcock1"
+        - "#hitchcock1-public"
        # - varsha@shippable.com
       on_start: always
       on_success: always
